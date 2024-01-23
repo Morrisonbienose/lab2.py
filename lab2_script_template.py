@@ -33,6 +33,7 @@ def add_pizza_toppings(about_me, toppings):
     toppings = ['chicken', 'bread']
     for Top in toppings:
         about_me['pizza_toppings'].append(toppings)
+        
     return
 
 # TODO: Step 6 - Function that prints bullet list of pizza toppings
